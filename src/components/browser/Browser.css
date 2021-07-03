@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+.browser{
+    margin-top: 10vh;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 1rem;
+    background: #beaee2;
+}
+.nav{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 5vh;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.view{
+    background: #000;
+}
+.circle3{
+    display: flex;
+    flex-direction: row;
+}
+.circlered{
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background: red;
+    margin: .2rem;
+}
+.circleyellow{
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background: yellow;
+    margin: .2rem;
+}
+.circlegreen{
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background: green;
+    margin: .2rem;
+}
+.addressbar{
+    background: gray;
+    border-radius: .2rem;
+    padding: .3rem;
+    width: 40%;
+}
